@@ -11,14 +11,14 @@ public class task2 {
         double a  = Double.parseDouble(elps[2]);
         double b  = Double.parseDouble(elps[3]);
         int res = 0;
-        final double EPS = 1e-9; // погрешеность
+        final double EPS = 1e-9; // погрешность
 
             for (int i = 0; i + 1 < points.length; i+=2){
                 double x = Double.parseDouble(points[i]);
                 double y = Double.parseDouble(points[i+1]);
 
                 double val = (x - cx) * (x - cx) / (a * a) + (y - cy) * (y - cy) / (b * b);
-                
+
                 if (Math.abs(val - 1.0) < EPS){
                     res = 0;
                 }else{
