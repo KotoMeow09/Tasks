@@ -21,7 +21,7 @@ public class task2 {
 
                 if (Math.abs(val - 1.0) < EPS){
                     res = 0;
-                }else{
+                }else {
                     if (val < 1.0) {
                         res = 1;
                     }else if (val > 1.0) {
