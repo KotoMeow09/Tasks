@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class task2 {
+public class Task2 {
     public static void main(String[] args) throws IOException {
         String[] elps = Files.readString(Paths.get(args[0])).trim().split("\\s+");
         String[] points = Files.readString(Paths.get(args[1])).trim().split("\\s+");
