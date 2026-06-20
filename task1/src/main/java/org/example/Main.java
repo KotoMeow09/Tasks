@@ -20,8 +20,7 @@ public class Main {
                     i = (i + m1 - 1) % n1;
 
                     if (i == 0) {
-                        z1 = true;
-                    }
+                        z1 = true;}
                 }
 
                 if (z2 == false) {
@@ -29,11 +28,10 @@ public class Main {
                     b = (b + m2 - 1) % n2;
 
                     if (b == 0) {
-                        z2 = true;
-                    }
+                        z2 = true;}
                 }
 
-            } while (z1 != true || z2 != true);
+            }while (z1 != true || z2 != true);
 
             System.out.println(itog1 + itog2);
         }else System.out.print("Недостаточно аргументов, нужно 4");
